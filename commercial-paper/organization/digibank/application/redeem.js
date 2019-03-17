@@ -79,12 +79,10 @@ async function main() {
 
     console.log('--------------------------------------------------------------------------------');
     console.log('Issuer: ' + paper.issuer);
-    console.log('Paper Number: ' +
-      paper.paperNumber);
+    console.log('Paper Number: ' + paper.paperNumber);
     console.log('Issue Date: ', paper.issueDateTime);
     console.log('Maturity DateTime' + paper.maturityDateTime);
-    console.log('Face Value: ' +
-      paper.faceValue);
+    console.log('Face Value: ' + paper.faceValue);
     console.log('Owner: ', paper.owner);
     if (process.argv[2]) {
       console.log('rating: ' + process.argv[2]);
